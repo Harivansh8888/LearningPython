@@ -12,3 +12,6 @@ I am currently in Kanpur
 Stay Home"""
 print(c)  #Multiline Strings
 
+d = '''Hey Everyone
+I hope you are having a good day'''
+print(d) #Multiline Strings
