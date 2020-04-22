@@ -15,3 +15,6 @@ print(c)  #Multiline Strings
 d = '''Hey Everyone
 I hope you are having a good day'''
 print(d) #Multiline Strings
+
+e = 'Hello World'
+print(e[4])  #Strings are Arrays in Python
