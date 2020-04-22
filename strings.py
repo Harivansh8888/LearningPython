@@ -28,6 +28,11 @@ print(g[-5:-2]) #Slicing starts from ending-Negative Indexing
 h = "  Harivansh Mathur    "
 print(h.strip())  #Removing whitespaces from beginning and end
 
+age = 19
+lang = 3
+o = "My name is Harivansh and I am {} and i know {} languages"
+print(o.format(age,lang)) #Combinig String and Integer
+
 i = 'Harivansh'
 print(i.lower()) #Convert to Lower case
 
