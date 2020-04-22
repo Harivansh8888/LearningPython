@@ -53,3 +53,8 @@ n1 = 'Hello'
 n2 = 'World'
 n3 = n1 + " " + n2
 print(n3) #String Concatenation
+
+age = 19
+lang = 3
+o = "My name is Harivansh and I am {} and i know {} languages"
+print(o.format(age,lang)) #Combinig String and Integer
