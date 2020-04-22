@@ -21,3 +21,6 @@ print(e[4])  #Strings are Arrays in Python
 
 f = 'Hello World'
 print(f[2:5]) #Slicing the String
+
+g = 'Hello World'
+print(g[-5:-2]) #Slicing starts from ending-Negative Indexing
