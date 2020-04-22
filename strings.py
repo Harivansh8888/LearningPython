@@ -33,3 +33,6 @@ print(i.lower()) #Convert to Lower case
 
 j = 'Mathur'
 print(j.upper()) #Convert to Upper case
+
+k = "Kanpur"
+print(k.replace("K","B")) #Will print Banpur
