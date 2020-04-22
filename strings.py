@@ -18,3 +18,6 @@ print(d) #Multiline Strings
 
 e = 'Hello World'
 print(e[4])  #Strings are Arrays in Python
+
+f = 'Hello World'
+print(f[2:5]) #Slicing the String
