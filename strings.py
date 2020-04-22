@@ -36,3 +36,6 @@ print(j.upper()) #Convert to Upper case
 
 k = "Kanpur"
 print(k.replace("K","B")) #Will print Banpur
+
+l = "Hello,Everyone"
+print(l.split(",")) #returns array of 2 strings- Hello and Everyone
