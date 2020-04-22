@@ -20,3 +20,6 @@ if myFunction():
     print("YES!")
 else:
     print("NO!")
+
+x = 43
+print(isinstance(x,int)) #returns true bcoz 43 is an integer
