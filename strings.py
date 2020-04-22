@@ -58,3 +58,6 @@ age = 19
 lang = 3
 o = "My name is Harivansh and I am {} and i know {} languages"
 print(o.format(age,lang)) #Combinig String and Integer
+
+p = "My country is \"India\" and I am a pround Indian"
+print(p) #Escape character for showing double quotes in a string
