@@ -24,3 +24,6 @@ print(f[2:5]) #Slicing the String
 
 g = 'Hello World'
 print(g[-5:-2]) #Slicing starts from ending-Negative Indexing
+
+h = "  Harivansh Mathur    "
+print(h.strip())  #Removing whitespaces from beginning and end
