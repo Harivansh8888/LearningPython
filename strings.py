@@ -30,3 +30,6 @@ print(h.strip())  #Removing whitespaces from beginning and end
 
 i = 'Harivansh'
 print(i.lower()) #Convert to Lower case
+
+j = 'Mathur'
+print(j.upper()) #Convert to Upper case
