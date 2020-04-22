@@ -12,3 +12,11 @@ else:
 print(bool("Hello")) #returns true
 print(bool(1)) #returns true
 print(bool(0)) #returns false
+
+def myFunction(): #function can return boolean
+    return True  
+
+if myFunction():
+    print("YES!")
+else:
+    print("NO!")
