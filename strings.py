@@ -43,3 +43,8 @@ print(l.split(",")) #returns array of 2 strings- Hello and Everyone
 m = "My name is X"
 txt = "name" in m
 print(txt) #returns boolean value - true if found and vice versa
+
+n1 = 'Hello'
+n2 = 'World'
+n3 = n1 + " " + n2
+print(n3) #String Concatenation
