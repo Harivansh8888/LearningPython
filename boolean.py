@@ -8,3 +8,7 @@ if b > a: #if else working
     print('Wow')
 else:
     print('Hey')
+
+print(bool("Hello")) #returns true
+print(bool(1)) #returns true
+print(bool(0)) #returns false
