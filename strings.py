@@ -27,3 +27,6 @@ print(g[-5:-2]) #Slicing starts from ending-Negative Indexing
 
 h = "  Harivansh Mathur    "
 print(h.strip())  #Removing whitespaces from beginning and end
+
+i = 'Harivansh'
+print(i.lower()) #Convert to Lower case
