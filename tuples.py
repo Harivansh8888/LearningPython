@@ -34,3 +34,6 @@ del tuple1 #deleting the tuple
 
 newtuple = name + x #joining 2 tuples
 print(newtuple)
+
+tuple2 = tuple(("mathur", "harivansh")) #tuple() constructor
+print(tuple2)
