@@ -42,3 +42,6 @@ print(list4)
 
 del list4[2] #deletes specified index
 print(list4)
+
+#del list4       #deletes the entire list
+#print(list4)
