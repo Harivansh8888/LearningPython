@@ -27,3 +27,9 @@ else:
     print("Absent")
 
 print(len(list4)) #prints length of list
+
+list4.append("singhal") #adding items to the list
+print(list4)
+
+list4.insert(2,"uppal") #inserting new item at specified index, rest all will be shifted
+print(list4)
