@@ -25,3 +25,6 @@ else:
     print("No")
 
 print(len(x)) #printing tuple length
+
+tuple1 = ("hello",) #for single item tuple a comma needs to added
+print(tuple1)
