@@ -25,3 +25,5 @@ if "singh" in list4: #checking if item exists in list
     print("Present")
 else:
     print("Absent")
+
+print(len(list4)) #prints length of list
