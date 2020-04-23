@@ -66,3 +66,6 @@ list5 = ['a','b','c']
 list6 = [1,2,3]
 list5.extend(list6) #using extend() method to join list
 print(list5)
+
+list7 = list(("hello","world")) #using list() constructor to make a list
+print(list7)
