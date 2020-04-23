@@ -33,3 +33,12 @@ print(list4)
 
 list4.insert(2,"uppal") #inserting new item at specified index, rest all will be shifted
 print(list4)
+
+list4.remove("singhal") #removes specified item
+print(list4)
+
+list4.pop(2) #removes specified index, if not then from last
+print(list4)
+
+del list4[2] #deletes specified index
+print(list4)
