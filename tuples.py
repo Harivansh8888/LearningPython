@@ -18,3 +18,8 @@ print(x)
 
 for m in x: #looping through tuple
     print(m)
+
+if "banana" in x: #checking for an item
+    print("Yes")
+else:
+    print("No")
