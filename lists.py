@@ -54,3 +54,15 @@ print(listcopy)
 
 listcopy1 = list(list1) # using inbuilt function list() to copy a list
 print(listcopy1)
+
+addedlist = list1 + list2 #joining 2 lists
+print(addedlist)
+
+for x in list2: #joining 2 lists using append function
+    list1.append(x)
+print(list1)
+
+list5 = ['a','b','c']
+list6 = [1,2,3]
+list5.extend(list6) #using extend() method to join list
+print(list5)
