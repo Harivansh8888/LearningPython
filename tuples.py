@@ -31,3 +31,6 @@ print(tuple1)
 
 del tuple1 #deleting the tuple
 #print(tuple1) #this will raise an error
+
+newtuple = name + x #joining 2 tuples
+print(newtuple)
