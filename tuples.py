@@ -23,3 +23,5 @@ if "banana" in x: #checking for an item
     print("Yes")
 else:
     print("No")
+
+print(len(x)) #printing tuple length
