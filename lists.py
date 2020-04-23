@@ -45,3 +45,6 @@ print(list4)
 
 #del list4       #deletes the entire list
 #print(list4)
+
+list3.clear() #making the list empty
+print(list3)
