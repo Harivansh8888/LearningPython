@@ -15,3 +15,6 @@ y =list(x) #converting tuple into list
 y[1] = "mango" #changing item in list
 x = tuple(y) #converting list back to tuple
 print(x)
+
+for m in x: #looping through tuple
+    print(m)
