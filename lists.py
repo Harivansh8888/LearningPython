@@ -17,3 +17,11 @@ print(list2[-4:-1]) #range of negative indexes
 list3 = ["dehradun","kanpur","jaipur","new delhi"]
 list3[0] = "mumbai" #changing item value
 print(list3) #printing updated list
+
+list4 = ["mathur","singh","sharma","chhabra"]
+for x in list4:  #looping through a list
+    print(x)
+if "singh" in list4: #checking if item exists in list
+    print("Present")
+else:
+    print("Absent")
