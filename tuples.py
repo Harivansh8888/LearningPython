@@ -28,3 +28,6 @@ print(len(x)) #printing tuple length
 
 tuple1 = ("hello",) #for single item tuple a comma needs to added
 print(tuple1)
+
+del tuple1 #deleting the tuple
+#print(tuple1) #this will raise an error
