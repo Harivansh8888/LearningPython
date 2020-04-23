@@ -13,3 +13,7 @@ print(list2[:3]) #prints from beginning to specified index
 print(list2[3:]) #prints from specified index to end
 
 print(list2[-4:-1]) #range of negative indexes
+
+list3 = ["dehradun","kanpur","jaipur","new delhi"]
+list3[0] = "mumbai" #changing item value
+print(list3) #printing updated list
