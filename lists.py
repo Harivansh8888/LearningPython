@@ -48,3 +48,9 @@ print(list4)
 
 list3.clear() #making the list empty
 print(list3)
+
+listcopy =list2.copy() #copies the list into a new list
+print(listcopy)
+
+listcopy1 = list(list1) # using inbuilt function list() to copy a list
+print(listcopy1)
