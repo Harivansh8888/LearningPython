@@ -27,6 +27,8 @@ set1.pop() #sets are unordered so we don't know what will be removed
 set2 = {"a","b","c"}
 set2.clear() #empties the set
 
+thisset = set(("hello","world")) #set() constructor
+print(thisset)
 #set2.del() #deletes the set permanently
 
 s1 = {"1","2","3"}
