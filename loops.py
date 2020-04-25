@@ -61,3 +61,8 @@ for x in range(2, 6): #prints 2,3,4,5
 
 for x in range(2, 30, 3): #increment of 3 each time between 2 and 30
   print(x)
+
+for x in range(6):
+  print(x)
+else: #else with for loop
+  print("Finally finished!")
