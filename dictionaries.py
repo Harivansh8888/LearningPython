@@ -32,3 +32,12 @@ if "year" in dict1: #checking if key exists
     print("Yes") 
 
 print(len(dict1)) #prints length of dictionary
+
+dict1["color"] = "blue" #adding item
+print(dict1)
+
+dict1.pop("year") #removing item
+print(dict1)
+
+mydict = dict1.copy() #copying dictionary
+print(mydict)
