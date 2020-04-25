@@ -25,3 +25,9 @@ my_function("Sweden")
 my_function("India")
 my_function()
 my_function("Brazil")
+
+def foodfunc(food): #passing list as an argument
+    for x in food:
+        print(x)
+fruits = ["apple","mango","banana"]
+foodfunc(fruits)
