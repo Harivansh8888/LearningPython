@@ -25,3 +25,12 @@ while i < 6:
   i += 1
 else: #else with while
   print("i is no longer less than 6")
+
+#for loops --->
+
+fruits = ["apple", "banana", "cherry"] 
+for x in fruits: #looping through a list
+  print(x)
+
+for x in "banana":
+  print(x) #looping through a string
