@@ -27,3 +27,8 @@ for x in dict1.values():
 
 for x,y in dict1.items():
     print(x,y) #prints keys and values
+
+if "year" in dict1: #checking if key exists
+    print("Yes") 
+
+print(len(dict1)) #prints length of dictionary
