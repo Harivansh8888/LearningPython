@@ -28,3 +28,11 @@ set2 = {"a","b","c"}
 set2.clear() #empties the set
 
 #set2.del() #deletes the set permanently
+
+s1 = {"1","2","3"}
+
+s = set1.union(s1) #joining 2 lists
+print(s)
+
+set1.update(s1) #joining 2 lists
+print(set1)
