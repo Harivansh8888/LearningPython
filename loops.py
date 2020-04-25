@@ -34,3 +34,15 @@ for x in fruits: #looping through a list
 
 for x in "banana":
   print(x) #looping through a string
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana": #will exit loop when banana is found
+    break
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break  #banana won't be printed and loop exited
+  print(x)
