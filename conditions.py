@@ -18,3 +18,13 @@ elif c == d:
     print("c and d are equal")
 else:
     print("d is greater than c")
+
+if b > a: print("Yes") #shorthand for if
+
+a = 2
+b = 330
+print("A") if a > b else print("B") #shorthand for if-else
+
+a = 330
+b = 330
+print("A") if a > b else print("=") if a == b else print("B") #shorthand for multiple if-else
