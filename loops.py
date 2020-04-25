@@ -18,3 +18,10 @@ while i < 6:
   if i == 3: #this will not print 3 
     continue
   print(i)
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else: #else with while
+  print("i is no longer less than 6")
