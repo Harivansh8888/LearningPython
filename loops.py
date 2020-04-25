@@ -66,3 +66,9 @@ for x in range(6):
   print(x)
 else: #else with for loop
   print("Finally finished!")
+  
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+for x in adj: #nested for loops
+  for y in fruits:
+    print(x, y)
