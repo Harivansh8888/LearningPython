@@ -57,3 +57,6 @@ myfamily = { #nested dictionaries
   }
 }
 print(myfamily)
+
+thisdict = dict(brand="Ford", model="Mustang", year=1964) #dict() constructor
+print(thisdict)
