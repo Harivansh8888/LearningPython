@@ -72,3 +72,6 @@ fruits = ["apple", "banana", "cherry"]
 for x in adj: #nested for loops
   for y in fruits:
     print(x, y)
+
+for x in [0, 1, 2]:
+  pass #pass statement when no content to provide
