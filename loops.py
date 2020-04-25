@@ -52,3 +52,12 @@ for x in fruits:
   if x == "banana":
     continue #banana won't be printed but loop will continue
   print(x)
+
+for x in range(6): #default start by 0 and default increment by 1 each time
+  print(x) #excludes 6
+
+for x in range(2, 6): #prints 2,3,4,5
+  print(x)
+
+for x in range(2, 30, 3): #increment of 3 each time between 2 and 30
+  print(x)
