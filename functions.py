@@ -31,3 +31,8 @@ def foodfunc(food): #passing list as an argument
         print(x)
 fruits = ["apple","mango","banana"]
 foodfunc(fruits)
+
+def f1(x):
+    return 3*x #return keyword
+print(f1(2))
+
