@@ -9,3 +9,12 @@ if p > q: #if and elif implementation
     print("p is greater than q")
 elif p == q:
     print("p and q are equal")
+
+c = 10
+d = 13
+if c > d: #if, elif and else implementation
+    print("c is greater than d")
+elif c == d:
+    print("c and d are equal")
+else:
+    print("d is greater than c")
