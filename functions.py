@@ -36,3 +36,12 @@ def f1(x):
     return 3*x #return keyword
 print(f1(2))
 
+def tri_recursion(k): #recursion implementation
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
+print("\nRecursion Example Results")
+tri_recursion(6)
