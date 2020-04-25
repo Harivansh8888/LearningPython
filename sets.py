@@ -23,3 +23,8 @@ set1.remove("hello") #if item does not exist it will show error
 set1.discard("pqr") #if item does not exist it will not show error
 
 set1.pop() #sets are unordered so we don't know what will be removed
+
+set2 = {"a","b","c"}
+set2.clear() #empties the set
+
+#set2.del() #deletes the set permanently
