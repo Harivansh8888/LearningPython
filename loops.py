@@ -46,3 +46,9 @@ for x in fruits:
   if x == "banana":
     break  #banana won't be printed and loop exited
   print(x)
+  
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue #banana won't be printed but loop will continue
+  print(x)
