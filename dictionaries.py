@@ -41,3 +41,19 @@ print(dict1)
 
 mydict = dict1.copy() #copying dictionary
 print(mydict)
+
+myfamily = { #nested dictionaries
+  "child1" : {
+    "name" : "Rahul",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Rohan",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Raj",
+    "year" : 2011
+  }
+}
+print(myfamily)
