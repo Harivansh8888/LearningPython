@@ -28,3 +28,9 @@ print("A") if a > b else print("B") #shorthand for if-else
 a = 330
 b = 330
 print("A") if a > b else print("=") if a == b else print("B") #shorthand for multiple if-else
+
+a = 200
+b = 33
+c = 500
+if a > b and c > a: #AND condtion
+  print("Both conditions are True")
