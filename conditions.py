@@ -34,3 +34,9 @@ b = 33
 c = 500
 if a > b and c > a: #AND condtion
   print("Both conditions are True")
+
+a = 200
+b = 33
+c = 500
+if a > b or a > c: #OR condition
+  print("At least one of the conditions is True")
