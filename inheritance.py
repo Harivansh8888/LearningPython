@@ -11,3 +11,7 @@ class Student(Person): #creating a subclass or child class
     print("Hi from the child class")
 x = Student("Neha", "Singh")
 x.printname()
+
+#__init__() function can be used in child class
+#when you add the __init__() function, the child class will no longer inherit the parent's __init__() function
+#the child's __init__() function overrides the inheritance of the parent's __init__() function
