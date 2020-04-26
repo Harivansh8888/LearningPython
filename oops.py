@@ -34,3 +34,7 @@ p3.quantity = 4 #modifying object properties
 
 print(p3.dish)
 print(p3.quantity)
+
+del p3.quantity # deleting object property
+
+del p2 # deleting the object
