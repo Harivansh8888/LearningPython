@@ -20,3 +20,12 @@ print(p1.age)
 
 p2 = Person("Maulik", 20)
 p2.myfunc()
+
+class Food:
+    def __init__(harivansh, dish, quantity): #self parameter can be named anything
+        harivansh.dish = dish
+        harivansh.quantity = quantity
+
+p3 =Food("Pav Bhaji", 2)
+print(p3.dish)
+print(p3.quantity)
