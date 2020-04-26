@@ -19,3 +19,12 @@ x.printname()
 class Stu(Person): #creating another child class
   def __init__(self, fname, lname):
     Person.__init__(self, fname, lname) #to keep the inheritance of the parent's __init__() function
+
+class Stud(Person): #creating another child class
+  def __init__(self, fname, lname,year):
+    super().__init__(fname, lname) #super() function that will make the child class inherit all the methods and properties from its parent
+    self.graduationyear = year #adding properties
+  def welcome(self):
+    print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
+x = Stud("Maulik", "Chhabra", 2022)
+x.welcome()
