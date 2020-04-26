@@ -29,3 +29,8 @@ class Food:
 p3 =Food("Pav Bhaji", 2)
 print(p3.dish)
 print(p3.quantity)
+
+p3.quantity = 4 #modifying object properties
+
+print(p3.dish)
+print(p3.quantity)
