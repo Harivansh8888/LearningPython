@@ -1,3 +1,5 @@
+#lambda is a special/different type of function
+
 x = lambda a,b: a*b*10 #can take multiple arguments
 print(x(2,3))
 
