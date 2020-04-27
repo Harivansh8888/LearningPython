@@ -10,3 +10,6 @@ import mymodule as mx -----> to rename a module
 a = mx.person1["age"]
 """
 import platform #built in module in python
+
+x = platform.system()
+print(x)
