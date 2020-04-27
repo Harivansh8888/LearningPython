@@ -18,3 +18,6 @@ print(next(myit1))
 print(next(myit1))
 print(next(myit1))
 print(next(myit1))
+
+for x in mytuple: #iterating using for loop
+    print(x)
