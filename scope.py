@@ -3,3 +3,10 @@ def myfunc():
   print(x)
 
 myfunc()
+
+def func1():
+    y = 200
+    def innerfunc():
+        print(y) #function inside a function so x can be used 
+    innerfunc()
+func1()
