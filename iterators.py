@@ -41,3 +41,22 @@ print(next(myiter))
 print(next(myiter))
 print(next(myiter))
 print(next(myiter))
+
+class MyNum:
+    def __iter__(self):
+        self.a = 1
+        return self
+    
+    def __next__(self):
+        if self.a <=20:
+            x = self.a
+            self.a += 1
+            return x
+        else:
+            raise StopIteration #using StopIteration so that for loop doesn't run forever
+
+myclass1 = MyNum()
+myiter1 = iter(myclass1)
+
+for x in myiter1:
+    print(x)
