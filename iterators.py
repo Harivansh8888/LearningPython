@@ -21,3 +21,23 @@ print(next(myit1))
 
 for x in mytuple: #iterating using for loop
     print(x)
+
+class MyNumbers: #creating an iterator using __iter__() and __next__() methods
+    def __iter__(self):
+        self.a = 1
+        return self
+    
+    def __next__(self):
+        x = self.a
+        self.a += 1
+        return x
+
+myclass = MyNumbers()
+myiter = iter(myclass)
+
+print(next(myiter)) #if here we use for loop for printing it would go on forever
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
