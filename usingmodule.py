@@ -19,3 +19,5 @@ print(y)
 
 z = dir(mymodule)
 print(z)
+
+# from mymodule import greeting -----> to only import a particular part of the module
