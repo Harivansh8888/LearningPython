@@ -28,3 +28,12 @@ def fun(): # both a are considered diff variables here
 fun()
 
 print(a)
+
+b = 400 
+def fun1(): #
+    global b
+    b = 23 #global keyword will change the value of 400 to 23
+
+fun1()
+
+print(b)
