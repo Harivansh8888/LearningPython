@@ -19,3 +19,12 @@ def func2():
 func2()
 
 print(z)
+
+a = 500  
+def fun(): # both a are considered diff variables here
+    a= 700
+    print(a)
+
+fun()
+
+print(a)
