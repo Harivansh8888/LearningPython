@@ -13,3 +13,9 @@ import platform #built in module in python
 
 x = platform.system()
 print(x)
+
+y = dir(platform) #listing all the names defined in platform module
+print(y)
+
+z = dir(mymodule)
+print(z)
