@@ -10,3 +10,12 @@ def func1():
         print(y) #function inside a function so x can be used 
     innerfunc()
 func1()
+
+z = 10 #global scope ---> declared outside the function
+
+def func2():
+    print(z)
+
+func2()
+
+print(z)
