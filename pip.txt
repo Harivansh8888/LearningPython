@@ -1,3 +1,5 @@
+PIP is Package Manager for Python --->
+
 *Checking PIP Version*
 (base) C:\Users\hp>pip --version
 pip 10.0.1 from C:\Users\hp\Anaconda3\lib\site-packages\pip (python 3.7)
