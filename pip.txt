@@ -1,0 +1,42 @@
+*Checking PIP Version*
+(base) C:\Users\hp>pip --version
+pip 10.0.1 from C:\Users\hp\Anaconda3\lib\site-packages\pip (python 3.7)
+
+
+
+*Installing a package using PIP*
+(base) C:\Users\hp>pip install camelcase
+Collecting camelcase
+  Downloading https://files.pythonhosted.org/packages/24/54/6bc20bf371c1c78193e2e4179097a7b779e56f420d0da41222a3b7d87890/camelcase-0.2.tar.gz
+Building wheels for collected packages: camelcase
+  Running setup.py bdist_wheel for camelcase ... done
+  Stored in directory: C:\Users\hp\AppData\Local\pip\Cache\wheels\b1\fe\08\84d2143069bc44c20127c38cc1bf202332319b3da7315ca766
+Successfully built camelcase
+twisted 18.7.0 requires PyHamcrest>=1.9.0, which is not installed.
+Installing collected packages: camelcase
+Successfully installed camelcase-0.2
+You are using pip version 10.0.1, however version 20.1b1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+
+
+*Upgrading PIP Version*
+(base) C:\Users\hp>python -m pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/54/0c/d01aa759fdc501a58f431eb594a17495f15b88da142ce14b5845662c13f3/pip-20.0.2-py2.py3-none-any.whl (1.4MB)
+    100% |████████████████████████████████| 1.4MB 132kB/s
+twisted 18.7.0 requires PyHamcrest>=1.9.0, which is not installed.
+Installing collected packages: pip
+  Found existing installation: pip 10.0.1
+    Uninstalling pip-10.0.1:
+      Successfully uninstalled pip-10.0.1
+Successfully installed pip-20.0.2
+You are using pip version 20.0.2, however version 20.1b1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+
+
+*Uninstalling a package using PIP*
+(base) C:\Users\hp>uninstall camelcase
+
+(base) C:\Users\hp>
