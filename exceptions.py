@@ -16,3 +16,10 @@ except:
     print("Some error occured")
 else:
     print("Nothing gets wrong") #using else with try and except
+
+try:
+    print(x)
+except:
+    print("Something is wrong")
+finally: #it will run regardless of exception occurence
+    print("try-except is executed")
