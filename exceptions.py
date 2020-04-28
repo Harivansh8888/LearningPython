@@ -9,3 +9,10 @@ except NameError:
     print("y is not defined") #many exceptions with a single try
 except:
     print("Some other exception occured")
+
+try:
+    print("Hello")
+except:
+    print("Some error occured")
+else:
+    print("Nothing gets wrong") #using else with try and except
