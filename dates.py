@@ -9,3 +9,7 @@ print(x.year) #prints current year
 print(x.strftime("%A")) #prints the current day
 
 #strftime converts date objects into readable strings
+
+print(y)
+
+print(y.strftime("%B")) # %A --> Day, %B --> Month, %C -->Last 2 digits of year
