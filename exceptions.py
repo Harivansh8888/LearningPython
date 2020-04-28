@@ -23,3 +23,8 @@ except:
     print("Something is wrong")
 finally: #it will run regardless of exception occurence
     print("try-except is executed")
+
+a = -1
+
+if a < 0:
+    raise Exception("Sorry, the number is less than zero") #raise is used to throw a exception
